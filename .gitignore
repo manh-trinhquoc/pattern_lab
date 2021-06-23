@@ -1,0 +1,10 @@
+# Node modul
+**/node_modules/
+
+**/*.map
+
+# Composer
+**/vendor
+
+**/pattern_exports
+**/public

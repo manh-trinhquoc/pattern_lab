@@ -1,0 +1,63 @@
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+
+//Colors
+$white: white;
+$gray: #525252;
+$red: #d1363a;
+$error: $gray;
+$valid: $gray;
+
+
+//Typography
+$body-font: SVN-Avo,
+Arial,
+Helvetica,
+sans-serif;
+$heading-font: 'UTM Avo',
+Arial,
+Helvetica,
+sans-serif;
+
+$body-font-size-small : 0.75em;
+$body-font-size-small-2 : 0.875em;
+$body-font-size-med : 1em;
+$body-font-size-med-2: 1.0625em;
+$body-font-size-large : 1.4375em;
+
+
+//Layout
+$max-width: 72em;
+
+//Defaults
+$space : 1em;
+$space-and-half : $space*1.5;
+$space-double : $space*2;
+$space-quad : $space*4;
+$space-half : $space/2;
+$pad : 1em;
+$pad-and-half : $pad*1.5;
+$pad-double : $pad*2;
+$pad-half : $pad/2;
+$pad-quarter :$pad/4;
+
+//Borders
+$border-med: 3px;
+$border-thick: 7px;
+
+
+//Breakpoints
+$bp-iphone-5s : 350px;
+$bp-iphone-x : 375px;
+$bp-iphone-6-plus : 414px;
+$bp-mobile : 639px;
+$bp-ipad-potrait : 768px;
+$bp-lap-992 : 992px;
+$bp-ipad-landscape : 1024px;
+$bp-lap-mdpi : 1280px;
+$bp-ipad-pro : 1366px;
+$bp-lap-hdpi: 1440px;
+$bp-lap-full-hd-120 : 1600px;
+$bp-lap-full-hd : 1920px;
+//
