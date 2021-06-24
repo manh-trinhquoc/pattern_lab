@@ -1,0 +1,33 @@
+{
+    "html.autoClosingTags": false,
+    "auto-close-tag.enableAutoCloseSelfClosingTag": false,
+    "javascript.autoClosingTags": false,
+    "auto-close-tag.enableAutoCloseTag": false,
+    "auto-close-tag.activationOnLanguage": [
+
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "typescript.autoClosingTags": false,
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
+	"editor.autoClosingBrackets": "never"
+}

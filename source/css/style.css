@@ -539,9 +539,10 @@ header, footer, nav, section, article, hgroup, figure {
 
 body {
   background: white;
-  font: 100%/1.5 SVN-Avo, Arial, Helvetica, sans-serif;
+  font: 100%/1.5 "SVN-Gotham Book", Arial, Helvetica, sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #525252;
+  font-size: 16px;
 }
 
 /* Links */
@@ -556,15 +557,20 @@ a:hover, a:focus {
 
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
-h1, .alpha {
+h1,
+.alpha {
   line-height: 1.2;
+  font-size: 37px;
 }
 
-h2, .beta {
+h2,
+.beta {
   line-height: 1.2;
+  font-size: 20px;
 }
 
-h3, .gamma {
+h3,
+.gamma {
   line-height: 1.2;
 }
 
@@ -877,9 +883,7 @@ td {
 }
 
 .logo {
-  float: left;
-  max-width: 8rem;
-  margin: 0.4rem;
+  max-width: 155px;
 }
 
 .nav-toggle {
