@@ -16,11 +16,31 @@ blockquote {
 hr {
     border: 0;
     height: 2px;
-    background: $gray;
+    border-top: 1px dashed $gray;
     margin: $space-double 0;
 }
 
 abbr {
     border-bottom: 1px dotted $gray;
     cursor: help;
+}
+
+ul.checked {
+    padding-left: 35px;
+
+    li {
+        position: relative;
+
+        &::before {
+            display: block;
+            content: "\f00c";
+            width: 1em;
+            height: 1em;
+            position: absolute;
+            left: -20px;
+            top: 0.5em;
+            font: normal normal normal 14px/1 FontAwesome;
+            color: $red;
+        }
+    }
 }

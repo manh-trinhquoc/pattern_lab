@@ -1,0 +1,19 @@
+.three-layer-cover {
+    position: relative;
+    display: inline-block;
+    padding-right: 30px;
+    background-color: rgba(black, 0.3);
+
+    .main {
+        width: 100%;
+        display: block;
+    }
+
+    .cover {
+        position: absolute;
+        display: block;
+        height: 100%;
+        top: 0;
+        right: 30px;
+    }
+}

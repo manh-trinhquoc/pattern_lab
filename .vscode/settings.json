@@ -28,6 +28,5 @@
     "typescript.autoClosingTags": false,
     "editor.autoClosingDelete": "never",
     "editor.autoClosingOvertype": "never",
-    "editor.autoClosingQuotes": "never",
-	"editor.autoClosingBrackets": "never"
+    "editor.autoClosingQuotes": "never"
 }
