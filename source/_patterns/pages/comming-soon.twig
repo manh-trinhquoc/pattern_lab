@@ -3,9 +3,13 @@
         {% include "@molecules/image-block/three-layer-cover.twig" %}
     </div>
     <div class="right-col">
-        <a href="{{ link.pages-homepage }}"><img src="{{ img.logo.src }}" class="logo" alt="{{ img.logo.alt }}"/></a>
-        <h1>{{ title_1 }}</h1>
-        <h2>{{ title_2 }}</h2>
+        <a href="{{ link.pages_homepage }}" class="logo">
+            <img src="{{ img.logo.src }}" alt="{{ img.logo.alt }}"/>
+        </a>
+        <div class="heading">
+            <h1 class="alpha">{{ title_1 }}</h1>
+            <h2 class="beta">{{ title_2 }}</h2>
+        </div>
         <ul>
             {% for item in ul %}
                 <li>{{ item }}</li>

@@ -1,0 +1,50 @@
+.page-comming-soon {
+    display: flex;
+
+    .left-col {}
+
+    .right-col {
+        flex-grow: 1;
+        padding-left: 8.3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-bottom: 50px;
+    }
+
+    .alpha {
+        margin-bottom: 15px;
+    }
+
+    .heading {
+        margin-bottom: 90px;
+    }
+
+    ul {
+        li {
+            margin-bottom: 5px;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: -20px;
+                top: 0.2em;
+                display: block;
+                width: 15px;
+                height: 20px;
+                background-image: url(../../images/icon-v.png);
+                background-position: center center;
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+
+    hr {
+        width: 19em;
+    }
+}

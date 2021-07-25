@@ -27,10 +27,10 @@
 
 
 
-@import "scss/generic/fonts";
-@import "scss/generic/variables";
-@import "scss/generic/mixins";
-@import "scss/generic/reset";
+@import "generic/fonts";
+@import "generic/variables";
+@import "generic/mixins";
+@import "generic/reset";
 
 
 
@@ -38,18 +38,16 @@
 /*------------------------------------*\
     $GLOBAL ELEMENTS
 \*------------------------------------*/
-@import "scss/base/global-classes";
-@import "scss/base/main";
-@import "scss/base/links";
-@import "scss/base/headings";
-@import "scss/base/text";
-@import "scss/base/lists";
-@import "scss/base/media";
-@import "scss/base/forms";
-@import "scss/base/tables";
-@import "scss/base/animation";
-
-
+@import "base/global-classes";
+@import "base/main";
+@import "base/links";
+@import "base/headings";
+@import "base/text";
+@import "base/lists";
+@import "base/media";
+@import "base/forms";
+@import "base/tables";
+@import "base/animation";
 
 
 
@@ -72,9 +70,8 @@
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
-@import "scss/objects/three-layer-cover";
+@import "objects/three-layer-cover";
 
 /**
 pages
 **/
-// @import "scss/pages/";
